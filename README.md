@@ -1,17 +1,39 @@
-# profile_app
+# Profile App
 
-A new Flutter project.
+A profile screen built with **Flutter**, featuring a custom dark theme with a
+pink-to-purple gradient header, a gradient-ring avatar, an accented stats card,
+and color-coded detail tiles.
 
-## Getting Started
+<p align="center">
+  <img src="docs/screenshot.png" alt="Profile App screenshot" width="300"/>
+</p>
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Custom dark UI with a gradient header banner (built from scratch, no templates)
+- Gradient-ring avatar with an online status badge
+- Stats card — Projects · Followers · Experience — with a gradient-accented value
+- "About Me" section and color-coded profile detail tiles
+- Smooth fade-in entrance animation
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠️ Built With
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev) · Dart · Material 3
+- **100% Dart** — all widgets are hand-built, no third-party UI packages
+
+## 🚀 Getting Started
+
+```bash
+flutter pub get
+flutter run
+```
+
+Runs on Android, iOS, web, and desktop from the same codebase.
+
+## 📁 Project Structure
+
+- `lib/main.dart` — the full app (UI and all custom widgets)
+
+---
+
+Made with Flutter 💙
